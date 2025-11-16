@@ -2,7 +2,12 @@
 
 A modern, responsive landing page for VyomGarud - a military-grade UAV/drone systems company. Built with React and Tailwind CSS, featuring a dark, futuristic aesthetic with smooth animations.
 
-![VyomGarud Landing Page](./screenshot.png)
+![VyomGarud Landing Page]
+
+### ScreenShots
+
+![Hero](./assets/VyomGarud_hero.png)
+![Capabilities](./assets/VyomGarud_Capabilities.png)
 
 ## 🚀 Live Demo
 
@@ -24,6 +29,7 @@ A modern, responsive landing page for VyomGarud - a military-grade UAV/drone sys
 - **Inter Font**: Clean, professional typography
 
 ## 📦 Installation
+
 ```bash
 # Clone the repository
 git clone https://github.com/YOUR_USERNAME/vyomgarud-landing.git
@@ -41,6 +47,7 @@ npm start
 The app will open at [http://localhost:3000](http://localhost:3000)
 
 ## 🏗️ Build for Production
+
 ```bash
 npm run build
 ```
@@ -48,6 +55,7 @@ npm run build
 Creates an optimized production build in the `build` folder.
 
 ## 📂 Project Structure
+
 ```
 vyomgarud-landing/
 ├── public/
@@ -63,12 +71,14 @@ vyomgarud-landing/
 ## 🎨 Design Notes
 
 ### Color Palette
+
 - Background: `#09090b` (zinc-950)
 - Secondary: `#18181b` (zinc-900)
 - Accent: `#ff7b00` (orange-500)
 - Text: White and zinc shades
 
 ### Sections
+
 1. **Hero**: Animated background with CTAs
 2. **About**: Company mission and statistics
 3. **Capabilities**: 4 feature cards
@@ -77,6 +87,7 @@ vyomgarud-landing/
 6. **Footer**: Links and company info
 
 ### Responsive Breakpoints
+
 - Mobile: < 768px
 - Tablet: 768px - 1024px
 - Desktop: > 1024px
@@ -84,6 +95,7 @@ vyomgarud-landing/
 ## 🚀 Deployment
 
 This project can be easily deployed to:
+
 - **Vercel**: `vercel deploy`
 - **Netlify**: Drag & drop the `build` folder
 - **GitHub Pages**: See deployment guide below
