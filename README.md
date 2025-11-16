@@ -92,14 +92,6 @@ vyomgarud-landing/
 - Tablet: 768px - 1024px
 - Desktop: > 1024px
 
-## 🚀 Deployment
-
-This project can be easily deployed to:
-
-- **Vercel**: `vercel deploy`
-- **Netlify**: Drag & drop the `build` folder
-- **GitHub Pages**: See deployment guide below
-
 ## 👨‍💻 Author
 
 Created as part of a technical assessment for VyomGarud UAV Systems.
