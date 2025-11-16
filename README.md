@@ -1,70 +1,102 @@
-# Getting Started with Create React App
+# VyomGarud UAV Systems Landing Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive landing page for VyomGarud - a military-grade UAV/drone systems company. Built with React and Tailwind CSS, featuring a dark, futuristic aesthetic with smooth animations.
 
-## Available Scripts
+![VyomGarud Landing Page](./screenshot.png)
 
-In the project directory, you can run:
+## 🚀 Live Demo
 
-### `npm start`
+[View Live Demo](YOUR_DEPLOYED_LINK_HERE)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ✨ Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Modern Design**: Dark theme with orange accent colors (#ff7b00)
+- **Fully Responsive**: Optimized for mobile, tablet, and desktop
+- **Smooth Animations**: Subtle animations and hover effects
+- **Military Aesthetic**: Professional, precision-engineered design
+- **Interactive Elements**: Animated hero section, capability cards, contact form
 
-### `npm test`
+## 🛠️ Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React 18**: Modern React with Hooks
+- **Tailwind CSS**: Utility-first CSS framework
+- **Lucide React**: Beautiful, consistent icons
+- **Inter Font**: Clean, professional typography
 
-### `npm run build`
+## 📦 Installation
+```bash
+# Clone the repository
+git clone https://github.com/YOUR_USERNAME/vyomgarud-landing.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Navigate to project directory
+cd vyomgarud-landing
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Install dependencies
+npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Start development server
+npm start
+```
 
-### `npm run eject`
+The app will open at [http://localhost:3000](http://localhost:3000)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🏗️ Build for Production
+```bash
+npm run build
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Creates an optimized production build in the `build` folder.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📂 Project Structure
+```
+vyomgarud-landing/
+├── public/
+├── src/
+│   ├── App.js          # Main component with all sections
+│   ├── index.js        # Entry point
+│   └── index.css       # Global styles with Tailwind
+├── package.json
+├── tailwind.config.js
+└── README.md
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🎨 Design Notes
 
-## Learn More
+### Color Palette
+- Background: `#09090b` (zinc-950)
+- Secondary: `#18181b` (zinc-900)
+- Accent: `#ff7b00` (orange-500)
+- Text: White and zinc shades
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Sections
+1. **Hero**: Animated background with CTAs
+2. **About**: Company mission and statistics
+3. **Capabilities**: 4 feature cards
+4. **Highlights**: Key metrics and achievements
+5. **Contact**: Interactive contact form
+6. **Footer**: Links and company info
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Responsive Breakpoints
+- Mobile: < 768px
+- Tablet: 768px - 1024px
+- Desktop: > 1024px
 
-### Code Splitting
+## 🚀 Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This project can be easily deployed to:
+- **Vercel**: `vercel deploy`
+- **Netlify**: Drag & drop the `build` folder
+- **GitHub Pages**: See deployment guide below
 
-### Analyzing the Bundle Size
+## 📝 Development Timeline
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- **Day 1**: Core layout, hero, about, and capability sections
+- **Day 2**: Responsive design, animations, polish, and deployment
 
-### Making a Progressive Web App
+## 👨‍💻 Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Created as part of a technical assessment for VyomGarud UAV Systems.
 
-### Advanced Configuration
+## 📄 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is created for assessment purposes.
