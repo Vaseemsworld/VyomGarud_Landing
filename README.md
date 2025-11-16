@@ -11,7 +11,7 @@ A modern, responsive landing page for VyomGarud - a military-grade UAV/drone sys
 
 ## 🚀 Live Demo
 
-[View Live Demo](YOUR_DEPLOYED_LINK_HERE)
+[View Live Demo](https://vyomgarud-landing-gold.vercel.app/)
 
 ## ✨ Features
 
@@ -32,10 +32,10 @@ A modern, responsive landing page for VyomGarud - a military-grade UAV/drone sys
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/vyomgarud-landing.git
+git clone https://github.com/Vaseemsworld/VyomGarud_Landing/
 
 # Navigate to project directory
-cd vyomgarud-landing
+cd Vyomgarud-landing
 
 # Install dependencies
 npm install
@@ -99,11 +99,6 @@ This project can be easily deployed to:
 - **Vercel**: `vercel deploy`
 - **Netlify**: Drag & drop the `build` folder
 - **GitHub Pages**: See deployment guide below
-
-## 📝 Development Timeline
-
-- **Day 1**: Core layout, hero, about, and capability sections
-- **Day 2**: Responsive design, animations, polish, and deployment
 
 ## 👨‍💻 Author
 

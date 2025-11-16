@@ -46,7 +46,7 @@ export default function Contact() {
                   setFormData({ ...formData, name: e.target.value })
                 }
                 className="w-full bg-zinc-950 border border-zinc-800 rounded-lg px-4 py-3 focus:outline-none focus:border-orange-500 focus:ring-2 focus:ring-orange-500/20 transition-all duration-300"
-                placeholder="John Doe"
+                placeholder="Vaseem Khan"
               />
             </div>
             <div className="group">
@@ -60,7 +60,7 @@ export default function Contact() {
                   setFormData({ ...formData, email: e.target.value })
                 }
                 className="w-full bg-zinc-950 border border-zinc-800 rounded-lg px-4 py-3 focus:outline-none focus:border-orange-500 focus:ring-2 focus:ring-orange-500/20 transition-all duration-300"
-                placeholder="john@example.com"
+                placeholder="vaseem@example.com"
               />
             </div>
           </div>
